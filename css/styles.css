@@ -32,10 +32,52 @@
 
 
 /* Typography */
+.priHeader {
+    font-family: 'Lobster', cursive;
+    color: #F2464F;
+}
 
+.secHeader {
+    font-family: 'Open Sans', sans-serif;
+    color: #3E2321;
+}
+.par1 {
+    color: brown;
+}
+
+.priHeader2 {
+    font-family: 'Libre Baskerville', serif;
+    color: brown;
+}
+
+.secHeader2 {
+    font-family: 'Anonymous Pro', ;
+    color: #3E2321
+}
+
+.par2 {
+    color: #F2464F;
+}
+
+.nav1, a {
+    list-style: none;
+    text-decoration: none;
+    color: #F2464F;  
+    
+}
+
+
+.nav2{
+    list-style: circle
+}
 
 /* Forms */
-
+.button-a {
+    background-color: #D7978F;
+}
+.button-b {
+    background-color: #F3D0BB;
+}
 
 /* Tables */
 

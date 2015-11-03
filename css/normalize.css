@@ -103,7 +103,7 @@ a:focus {
 
 a:active,
 a:hover {
-    outline: 0;
+    outline: 1;
 }
 
 /* ==========================================================================
@@ -118,6 +118,7 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: darksalmon
 }
 
 /**
@@ -300,6 +301,11 @@ button,
 input {
     line-height: normal;
 }
+button:hover {
+    background-color: #F2464F;
+}
+;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -311,6 +317,9 @@ input {
 button,
 select {
     text-transform: none;
+}
+button-a:hover {
+    background-color: #F2464F;
 }
 
 /**
